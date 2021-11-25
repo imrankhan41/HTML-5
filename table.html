@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Data</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            width:100%;
+            
+        }
+        th,td{
+            border:1px solid black;
+            padding:0px 10px 0px 10px;
+            font-size: 20px;
+            background-color: aqua;
+            text-align: right;
+        }
+        tr:nth-child(2n){
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank" rel="noopener noreferrer">Index</a></li>
+                <li>   <a href="form.html" target="_blank" rel="noopener noreferrer">Form</a></li>
+                <li> <a href="home.html" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li><a href="semantig.html" target="_blank" rel="noopener noreferrer">Semantig</a></li>
+                <li> <a href="table.html" target="_blank" rel="noopener noreferrer">Table</a></li>
+            </ul>
+            <h1>Welcpome to </h1>
+        </nav>
+    </header>
+    
+    <table>
+        <caption>Table of IT Sector</caption>
+      <thead>
+          <tr>
+              <th>No</th>
+              <th>Full Name</th>
+              <th>position</th>
+              <th>Salary</th>
+          </tr>
+      </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve job</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry PAge</td>
+                <td>Founde Goggle</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td >4</td>
+                <td> Mar Zuckerbag</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"></td>
+                
+               
+                <td >Total=$4600</td>
+            </tr>
+        </tfoot>
+        <table >
+            <tr>
+              <th>Name:</th>
+              <td>Bill Gates</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Telephone:</th>
+              <td>55577854</td>
+            </tr>
+            <tr>
+             
+              <td>55577855</td>
+            </tr>
+          </table>
+    </table>
+</body>
+</html>
